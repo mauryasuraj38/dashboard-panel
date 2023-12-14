@@ -1,9 +1,14 @@
 import './App.css';
+import Sidebar from './component/Sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Prabhakar Kumar</h1>
+      <div className="container">
+        <Sidebar />
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }
