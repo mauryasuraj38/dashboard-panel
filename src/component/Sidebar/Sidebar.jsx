@@ -28,7 +28,7 @@ function Sidebar() {
             </div>
         ))}
         <div className="menuItem">
-            <i class="uil uil-sign-out-alt"></i>
+            <i className="uil uil-sign-out-alt"></i>
         </div>
       </div>
 
