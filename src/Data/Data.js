@@ -1,3 +1,8 @@
+import img1 from "../images/img1.png"
+import img2 from "../images/img2.png"
+import img3 from "../images/img3.png"
+
+// Siderbar Data
 export const SidebarData = [
     {
         iconClass: "uil uil-estate",
@@ -21,6 +26,7 @@ export const SidebarData = [
     }
 ]
 
+// Cards Data
 export const CardsData = [
     {
         title: "Sales",
@@ -70,4 +76,26 @@ export const CardsData = [
             }
         ]
     },
+]
+
+// Updates Data
+export const UpdatesData = [
+    {
+        img: img1,
+        name: "Larry Fink",
+        order: "has ordered Apple smart watch 2500mh battery.",
+        time: "25 seconds ago"
+    },
+    {
+        img: img2,
+        name: "Thomas Shelbi",
+        order: "has received Samsung gadget for charging battery.",
+        time: "30 minutes ago"
+    },
+    {
+        img: img3,
+        name: "Steve Jobs",
+        order: "has ordered Apple smart watch, Samsung Gear 2500mh battery.",
+        time: "2 hours ago"
+    }
 ]
