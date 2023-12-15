@@ -71,3 +71,17 @@
     bottom: 2rem;
     width: 100%;
 }
+
+
+@media screen and (max-width:1200px){
+    .logo, .menuItem>span{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .Sidebar{
+        display: none;
+    }
+}
